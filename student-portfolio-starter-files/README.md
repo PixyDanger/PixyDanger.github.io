@@ -155,10 +155,10 @@ Before submitting, confirm that:
 
 - [x] The published GitHub Pages URL works.
 - [x] Your name appears on the site.
-- [ ] No placeholder text remains.
+- [x] No placeholder text remains.
 - [x] No placeholder images remain.
 - [x] Your résumé link works.
-- [ ] Every navigation link works.
+- [x] Every navigation link works.
 - [x] Every project has a screenshot.
 - [x] Every repository link works.
 - [ ] Every demo link works.
