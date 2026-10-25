@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Student developer portfolio">
+    <title>Student Name | Developer Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-wrapper">
+            <a class="site-title" href="#home">Elizabeth Ostenburg</a>
+            <nav aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container hero-content">
+                <div>
+                    <p class="eyebrow">Student Developer Portfolio</p>
+                    <h1>Hello, I’m <span>Elizabeth 'Liz' Ostenburg</span>.</h1>
+                    <p class="hero-text">
+                        I am a detail oriented computer science student. My goal is to learn to create simulations with my intial focus being on creating more user friendly programs. Virtual, Augmented, Mixed Reality all currently lack a universal interface, or even a best practice to the detriment of the technology. Right now I am focused on learning the basics of software engineering to give me a good foundation for my future career.  
+                    </p>
+                    <div class="button-row">
+                        <a class="button primary" href="#projects">View My Projects</a>
+                        <a class="button secondary" href="assets\CompSci_Resume.pdf" target="_blank" rel="noopener">View Résumé</a>
+                    </div>
+                </div>
+
+                <img class="profile-image" src="images\profile_pictures.jpg" alt="Professional headshot">
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container narrow">
+                <p class="section-label">About Me</p>
+                <h2>Who I Am as a Developer</h2>
+                <p>
+                    At the moment I am just begining my developer journey.So far I have really enjoyed learning how the different components like functions and classes can be put together like building blocks to make a complete programming. I'm looking forward to learning more about all these building blocks and construct more and more complex projects.
+                </p>
+
+                <div class="skills-grid">
+                    <article class="info-card">
+                        <h3>Languages</h3>
+                        <p>C++</p>
+                    </article>
+
+                    <article class="info-card">
+                        <h3>Tools</h3>
+                        <p>Visual Studio, Git, GitHub</p>
+                    </article>
+
+                    <article class="info-card">
+                        <h3>Current Focus</h3>
+                        <p>Object-oriented programming, debugging, user interfaces, and clean code</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section alternate-background">
+            <div class="container">
+                <p class="section-label">Featured Work</p>
+                <h2>Projects</h2>
+                <p class="section-intro">
+                    Current showcase of my projects, so far.
+                </p>
+
+                <div class="project-grid">
+                    <article class="project-card">
+                        <img src="images\Demo_ShortEndingwPlayersHistory.png" alt="This shows the user interface, with the player choosing a quick ending to the story. Underneath there is the main menu of the game and the playhistory showing a synopsis of the players' choices so far.'">
+                        <div class="project-content">
+                            <p class="project-type">C++ Console Application</p>
+                            <h3>Untitled Goose Chase</h3>
+                            <p>
+                                This program is a short text-based Dungeons and Dragons adventure. It has fifteen total endings, some of which are consistent, some of which will change based on a randomizer meant to mimic rolling a D20. The user can play through a story giving each playthrough a different name, they can view the playthroughs they have already completed, and clear the history when they want to start fresh.
+                            </p>
+
+                            <h4>Key Features</h4>
+                            <ul>
+                                <li>Modular story creation: The lead menu, lead, and scenario classes work together to build the story. They are built in such a way to make adding more options simple to make the program scalable and alterations easy.</li>
+                                <li>User Interface specific class: With a focus make the program as user friendly as possible I made a UI class to have consistent means of outputing text to the terminal. This included creating a text wrapping feature so no words were cut off.</li>
+                                <li>Menu and interface: The menu is simple for ease of use. It feature 4 numbered options and the user simply inputs the number matching the option they'd like to choose. There are also a yes and no options using y or n. Lastly, to keep the text from being overwhelming I added press enter to continue for longer text portions.
+                                </li>
+                            </ul>
+
+                            <h4>What I Learned</h4>
+                            <p>
+                                My largest challenge was losing the ability to use my primary computer in the middle of the process. This required me to do a deep dive into how use GitHub to retrieve my code and set everything up on a backup computer. There were a few simple steps I missed having not done so before, but I eventually got everything working again. I feel more confident about doing so in the future.
+                            </p>
+
+                            <div class="project-links">
+                                <a class="text-link" href="https://github.com/PixyDanger/Untitled-Goose-Chase-COS1-.git" target="_blank" rel="noopener">View Repository</a>
+                                <!--<a class="text-link" href="https://example.com" target="_blank" rel="noopener">Watch Demo</a>-->
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <img src="images\UnderConstruction.png" alt="Under Construction">
+                        <div class="project-content">
+                            <p class="project-type">Additional Project</p>
+                            <h3> Under Construction </h3>
+                            <p>
+                                <!--Duplicate this card when you are ready to add more work. Replace all placeholder text, links, and images before submitting.-->
+                            </p>
+
+                            <h4>Key Features</h4>
+                            <ul>
+                                <!--<li>Describe one major feature.</li>
+                                <li>Describe another major feature.</li>
+                                <li>Describe a technical improvement.</li>-->
+                            </ul>
+
+                            <h4>What I Learned</h4>
+                            <p>
+                                <!--Explain how this project demonstrates your growth as a developer.-->
+                            </p>
+
+                            <div class="project-links">
+                                <!--<a class="text-link" href="https://github.com/USERNAME/REPOSITORY" target="_blank" rel="noopener">View Repository</a>-->
+                                <!--<a class="text-link" href="https://example.com" target="_blank" rel="noopener">Watch Demo</a>-->
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container narrow contact-section">
+                <p class="section-label">Contact</p>
+                <h2>Let’s Connect</h2>
+                <p>
+                    Find me on GitHub and LinkedIn or feel free to use my email below.
+                </p>
+
+                <div class="contact-links">
+                    <a class="button primary" href="https://github.com/PixyDanger" target="_blank" rel="noopener">GitHub</a>
+                    <a class="button secondary" href="https://www.linkedin.com/in/elizabeth-ostenburg" target="_blank" rel="noopener">LinkedIn</a>
+                    <a class="button secondary" href="mailto:liz_chris@live.com">Professional Email</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Student Name. Built with HTML, CSS, GitHub, and GitHub Pages.</p>
+        </div>
+    </footer>
+</body>
+</html>
